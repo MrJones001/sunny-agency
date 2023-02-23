@@ -307,7 +307,7 @@ footer a:hover{
         top: 30px;
         justify-content: center;
         text-align: center;
-        left: 30%;
+        left: 20%;
     }
     .down{
         left: 45%;
@@ -359,7 +359,7 @@ footer a:hover{
     .trust{
         font-size: 15px;
         justify-content: center;
-        left: 70px;
+        left: 10px;
     }
     .emi{
         align-items: center;
@@ -375,7 +375,7 @@ footer a:hover{
     .logof{
         justify-content: start;
         width: 30vh;
-        left: 150px;
+        left: 70px;
     }
     footer a{
         justify-content: space-around;
@@ -391,6 +391,7 @@ footer a:hover{
     display: flex;
     justify-content: center;
     align-items: start;
+    left: 30px;
    }
    .facebook{
     position: relative;
