@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: url("images/desktop/image-header.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 80vh;
+}
+.logo{
+    margin: 15px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.down{
+   position: relative;
+   top: 170px;
+   left: 50%;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+a:hover:not(.nav-bar){
+    background-color: rgba(255, 243, 243, 0.67);
+    border-radius: 2px;
+}
+.creatives{
+    letter-spacing: 10px;
+    color: white;
+    font-family: 'Fraunces', serif;
+    position: relative;
+    top: 100px;
+    left: 30%;
+    font-weight: 900;
+}
+.first{
+    display: flex;
+    position: relative;
+}
+.side{
+    position: relative;
+    top: 100px;
+    height: 300px;
+    width: 50%;
+    left: 40px;
+}
+.trans{
+    position: relative;
+    font-size: 39px;
+    bottom: 30px;
+    font-family: 'Fraunces', serif;
+}
+.full{
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: 11px;
+    width: 80%;
+}
+.learn{
+    position: relative;
+    top: 20px;
+    font-size: 11px;
+    font-family: 'Fraunces', serif;
+}
+.learn:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+.egg{
+    height: 300px;
+    width: 50%;
+}
+.second{
+    display: flex;
+    position: relative;
+}
+.cup{
+    height: 300px;
+    width: 50%;
+}
+.side2{
+    position: relative;
+    top: 100px;
+    height: 300px;
+    width: 50%;
+    left: 40px;
+}
+.all{
+    position: relative;
+    font-size: 30px;
+    bottom: 30px;
+    font-family: 'Fraunces', serif;
+}
+.using{
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: 11px;
+    width: 80%;
+}
+.learn2{
+    position: relative;
+    top: 20px;
+    font-size: 11px;
+    font-family: 'Fraunces', serif;
+}
+.learn2:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: hsl(7, 99%, 70%);
+}
+.third{
+    display: flex;
+    position: relative;
+}
+.graphic{
+    background: url(images/mobile/image-graphic-design.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+}
+.photo{
+    background: url(images/mobile/image-photography.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+}
+.design{
+    font-family: 'Fraunces', serif;
+    color: hsl(167, 40%, 24%);
+    position: relative;
+    top: 320px;
+    left: 30%;
+    font-weight: 900;
+    font-size: 18px;
+}
+.great{
+    font-family:'Barlow', sans-serif;
+    color: hsl(167, 40%, 24%);
+    position: relative;
+    top: 350px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-size: 11px;
+}
+.photog{
+    font-family: 'Fraunces', serif;
+    color: hsl(198, 62%, 26%);
+    position: relative;
+    top: 320px;
+    left: 40%;
+    font-weight: 900;
+    font-size: 18px;
+}
+.increase{
+    color: hsl(198, 62%, 26%);
+    font-family:'Barlow', sans-serif;
+    position: relative;
+    top: 350px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-size: 11px;
+}
+.test{
+    letter-spacing: 20px;
+    color: gray;
+    font-family:'Fraunces', serif ;
+    position: relative;
+    top: 100px;
+    left: 25%;
+}
+.gallery{
+    position: relative;
+    top: 200px;
+    left: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+.pics{
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    left: 70px;
+}
+.trust{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+    font-size: 11px;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+}
+.emi{
+    color: hsl(212, 27%, 19%);
+    font-family:'Fraunces', serif ;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 30px;
+}
+.director{
+    color: hsl(210, 6%, 50%);
+    font-family: 'Barlow', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+.imgs{
+    height: 220px;
+    width: 100%;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+footer{
+    background-color: hsl(167, 78%, 67%);
+    height: 400px;
+    width: 100%;
+}
+.logof{
+    position: relative;
+    top: 50px;
+    left: 50% ;
+}
+footer a{
+    color: hsl(168, 32%, 27%);
+    position: relative;
+    top: 100px;
+    left: 500px;
+    justify-content: space-between;
+}
+footer a:hover{
+    color: white;
+}
+.social{
+    display: flex;
+    position: relative;
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+}
+.facebook{
+    position: relative;
+}
+.instagram{
+    position: relative;
+    left: 20px;
+}
+.twitter{
+    position: relative;
+    left: 40px;   
+}
+.pinterest{
+    position: relative;
+    left: 60px;
+}
+/* MEDIA QUERIES */
+@media (min-width: 641px) and (max-width:1440px) {
+    body{
+        width: 100%;
+    }
+}
+@media (max-width: 640px) {
+    
+    body{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 30px;
+        width: 10vh;
+        height: 20px;
+    }
+    header {
+        background: url("images/desktop/image-header.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 50vh;
+    }
+    ul{
+        margin-right: 20px;
+        flex-direction: column;
+        justify-content: space-between;   
+    }
+    .creatives{
+        font-size: 20px;
+        width: 30vh;
+        top: 30px;
+        justify-content: center;
+        text-align: center;
+        left: 30%;
+    }
+    .down{
+        left: 45%;
+        top: 30px;
+    }
+    .first{
+        flex-direction: column-reverse;
+    }
+    .side{
+        font-size: 20px;
+        width: 100%;
+    }
+    .egg{
+        width: 100%;
+    }
+    .second{
+        flex-direction: column;
+    }
+    .cup{
+        width: 100%;
+    }
+    .side2{
+        font-size: 18px;
+        width: 100%;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .test{
+        top: 50px;
+        font-size: 9px;
+        letter-spacing: 7px;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery{
+        flex-direction: column;
+        top: 30px;
+        bottom: 50px;
+        height: 800px;
+        justify-content: space-evenly;
+
+    }
+    .pics{
+        height: 50px;
+        justify-content: center;
+        left: 30%;
+    }
+    .trust{
+        font-size: 15px;
+        justify-content: center;
+        left: 70px;
+    }
+    .emi{
+        align-items: center;
+        right: 10%;
+    }
+    .director{
+        align-items: center;
+        right: 10%;
+    }
+    .images{
+        flex-direction: column; 
+    }
+    .logof{
+        justify-content: start;
+        width: 30vh;
+        left: 150px;
+    }
+    footer a{
+        justify-content: space-around;
+        font-size: 20px;
+        align-items: start;
+        left: 10px;
+    }
+   .bottom{
+    display: flex;
+    flex-direction: row;
+   }
+   .social{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   }
+   .facebook{
+    position: relative;
+}
+.instagram{
+    position: relative;
+    left: 30px;
+}
+.twitter{
+    position: relative;
+    left: 60px;   
+}
+.pinterest{
+    position: relative;
+    left: 90px;
+}
+}
