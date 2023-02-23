@@ -246,34 +246,22 @@ footer a{
     color: hsl(168, 32%, 27%);
     position: relative;
     top: 100px;
-    left: 500px;
-    justify-content: space-between;
+    left: 800px;
 }
 footer a:hover{
-    color: white;
+    color: rgb(198, 193, 193);
 }
 .social{
-    display: flex;
-    position: relative;
-    top: 200px;
-    align-items: center;
-    justify-content: center;
-    left: 30px;
+   position: relative;
+   left: 50%;
+   top: 170px;
 }
-.facebook{
-    position: relative;
+i{
+    font-size: 20px;
+    margin-left: 10px;
 }
-.instagram{
-    position: relative;
-    left: 20px;
-}
-.twitter{
-    position: relative;
-    left: 40px;   
-}
-.pinterest{
-    position: relative;
-    left: 60px;
+i:hover{
+    color: white;
 }
 /* MEDIA QUERIES */
 @media (min-width: 641px) and (max-width:1440px) {
