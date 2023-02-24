@@ -46,7 +46,7 @@ nav ul li a:hover:not(.nav-bar){
     font-family: 'Fraunces', serif;
     position: relative;
     top: 100px;
-    left: 30%;
+    left: 40%;
     font-weight: 900;
 }
 .first{
@@ -252,7 +252,7 @@ footer a{
     top: 100px;
     justify-content: center;
     margin: 30px;
-    left: 300px;
+    left: 750px;
     font-size: 18px;
 }
 footer a:hover{
@@ -377,7 +377,7 @@ i:hover{
     .test{
         top: 50px;
         font-size: 11px;
-        left: 25%;
+        left: 30%;
         letter-spacing: 7px;
         justify-content: center;
         align-items: center;
