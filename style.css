@@ -266,6 +266,18 @@ footer ul li a{
    left: 50%;
    top: 170px;
 }
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: rgb(244, 22, 59);
+}
+.fa-twitter{
+    color: rgb(43, 43, 251);
+}
+.fa-pinterest{
+    color: red;
+}
 i{
     font-size: 20px;
     margin-left: 10px;
@@ -442,19 +454,5 @@ i:hover{
     align-items: start;
     left: 30px;
    }
-   .facebook{
-    position: relative;
-}
-.instagram{
-    position: relative;
-    left: 30px;
-}
-.twitter{
-    position: relative;
-    left: 60px;   
-}
-.pinterest{
-    position: relative;
-    left: 90px;
-}
-  }
+   
+   }
